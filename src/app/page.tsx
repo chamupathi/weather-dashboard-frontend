@@ -1,10 +1,12 @@
 import PageHeader from "@/components/common/page-header";
-import Image from "next/image";
+import SearchBar from "./components/search-bar";
 
 export default function Home() {
   return (
     <>
-    <PageHeader title="Weather Dashboard" />
+      <PageHeader title="Weather Dashboard" />
+
+      <SearchBar />
     </>
   );
 }
