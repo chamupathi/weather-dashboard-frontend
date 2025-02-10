@@ -30,12 +30,15 @@ Create a `.env.local` file in the root directory and add the following variables
 NEXT_PUBLIC_API_BASE_URL=http://localhost:3000
 ```
 
-4. Run the development server:
+4. Make sure that the backend for this project is running
+[repository link](https://github.com/chamupathi/weather-dashboard-backend)
+
+5. Run the development server:
 ```bash
-npm run dev
+npm run dev 
 # or
 yarn dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
